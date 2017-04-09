@@ -4,12 +4,22 @@
     android:layout_height="match_parent"
     tools:context="com.patientragistration.Fragments.booked_appoinment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:gravity="center"
+    <com.patientragistration.ConstantClasses.RevealLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="booked Appoinment" />
+        android:id="@+id/appoinment_booked"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:background="#9C27B0"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:text="booked Appoinment" />
+
+    </com.patientragistration.ConstantClasses.RevealLayout>
+
+
 
 
 </FrameLayout>

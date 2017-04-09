@@ -4,12 +4,20 @@
     android:layout_height="match_parent"
     tools:context="com.patientragistration.Fragments.barcode_Scanner">
 
-    <!-- TODO: Update blank fragment layout -->
+    <com.patientragistration.ConstantClasses.RevealLayout
+        android:layout_width="match_parent"
+        android:id="@+id/barcode_scanner"
+        android:layout_height="match_parent">
+
     <TextView
         android:gravity="center"
+        android:background="#E91E63"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="barcode scanner" />
+
+   </com.patientragistration.ConstantClasses.RevealLayout>
 
 
 </FrameLayout>

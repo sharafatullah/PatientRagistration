@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.patientragistration.ConstantClasses.RevealLayout;
 import com.patientragistration.R;
 
 
@@ -14,6 +15,8 @@ import com.patientragistration.R;
  * A simple {@link Fragment} subclass.
  */
 public class appoinment_booking extends Fragment {
+
+    RevealLayout mRevealLayout;
 
 
     public appoinment_booking() {
@@ -25,7 +28,19 @@ public class appoinment_booking extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_appoinment_booking, container, false);
+        final View view= inflater.inflate(R.layout.fragment_appoinment_booking, container, false);
+
+        mRevealLayout=(RevealLayout)view.findViewById(R.id.appoinment_booking);
+
+        mRevealLayout.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mRevealLayout.show();
+            }
+        }, 50);
+
+
+        return view;
     }
 
 }

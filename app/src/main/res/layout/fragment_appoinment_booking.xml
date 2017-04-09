@@ -1,14 +1,23 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.patientragistration.Fragments.appoinment_booking">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="booking appoinment" />
+   <com.patientragistration.ConstantClasses.RevealLayout
+       android:layout_width="match_parent"
+       android:id="@+id/appoinment_booking"
+       android:layout_height="match_parent">
 
-</FrameLayout>
+       <TextView
+           android:gravity="center"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#F44336"
+           android:textColor="@color/white"
+           android:text="booking appoinment" />
+
+
+   </com.patientragistration.ConstantClasses.RevealLayout>
+
+</RelativeLayout>
