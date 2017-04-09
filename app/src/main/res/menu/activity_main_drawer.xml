@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_patient_regis"
+            android:icon="@drawable/add"
+            android:title="Patient Registration" />
+        <item
+            android:id="@+id/nav_patient_regis_view"
+            android:icon="@drawable/registration_view"
+            android:title="View Ragistered Patient" />
+        <item
+            android:id="@+id/nav_patient_appoinment"
+            android:icon="@drawable/book_registration"
+            android:title="Appoinment Booking" />
+        <item
+            android:id="@+id/nav_patient_view"
+            android:icon="@drawable/patient_view"
+            android:title="View booked Appoinemnt" />
+
+        <item
+            android:id="@+id/nav_barcode"
+            android:icon="@drawable/barcode"
+            android:title="Barcode Scanner" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Laogout" />
+
+
+    <!--<item android:title="Others">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_barcode"-->
+                <!--android:icon="@drawable/barcode"-->
+                <!--android:title="Barcode Scanner" />-->
+
+        <!--</menu>-->
+    <!--</item>-->
+
+    <!--<item android:title="">-->
+        <!--<menu>-->
+
+            <!--<item-->
+                <!--android:id="@+id/nav_logout"-->
+                <!--android:icon="@drawable/logout"-->
+                <!--android:title="Sign Out" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+    </group>
+
+</menu>
